@@ -32,7 +32,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>
-          <Link href="https://about.blank">
+          <Link href="/comingSoon">
             Coming soon! <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
