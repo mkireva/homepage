@@ -21,6 +21,7 @@ import { IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbBeinsaNotes from '../public/images/works/beinsanotes.png'
 import Image from 'next/image'
+import Typewriter from './../components/typewriter'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -37,7 +38,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a fullstack developer based in Munich!
+        <Typewriter />
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -144,7 +145,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-        <Link
+          <Link
             href="https://www.youtube.com/watch?v=Ugc5FZsycAw"
             target="_blank"
           >
@@ -185,7 +186,6 @@ const Home = () => (
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-         
           <GridItem
             href="https://mkireva.github.io/notes-frontend/score"
             title="Beinsa Scores"
