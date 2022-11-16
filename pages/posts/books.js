@@ -1,4 +1,4 @@
-import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
+import { Container, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/book'
 import P from '../../components/paragraph'
@@ -7,20 +7,18 @@ import Layout from '../../components/layouts/article'
 const Books = () => (
   <Layout title="Beinsa Notes">
     <Container>
-      <Title>
-        Books witch inspired me <Badge>2022-</Badge>
-      </Title>
+      <Title>Books witch inspired me</Title>
       <P>The following books and authors was a big inspiration for me.</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platon</Meta>
-          <Link href="https://de.wikipedia.org/wiki/Politeia">
+          <Link href="https://en.wikipedia.org/wiki/Politeia">
             Politeia <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Baruch de Spinoza</Meta>
-          <Link href="https://de.wikipedia.org/wiki/Ethica,_ordine_geometrico_demonstrata">
+          <Link href="https://en.wikipedia.org/wiki/Ethica,_ordine_geometrico_demonstrata">
             Ethica, ordine geometrico demonstrata <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -46,6 +44,12 @@ const Books = () => (
           <Meta>Beinsa Duno</Meta>
           <Link href="https://de.wikipedia.org/wiki/Petar_Danow">
             Wissenschaft und Erziehung <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Alfred North Whitehead</Meta>
+          <Link href="https://de.wikipedia.org/wiki/Petar_Danow">
+            Process and Reality <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
