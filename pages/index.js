@@ -55,7 +55,7 @@ const Home = () => {
           pl={10}
           pr={10}
           pt={6}
-          pb={5}
+          pb={6}
           textAlign="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           css={{ backdropFilter: 'blur(10px)' }}
