@@ -10,7 +10,7 @@ const typewriter = () => {
             .pauseFor(2000)
             .deleteAll()
             .typeString(
-              `I like  programming, philosophy, music and hikking in the nature.`
+              `I like  programming, philosophy, music and hiking in the nature.`
             )
             .pauseFor(2000)
             .deleteAll()
