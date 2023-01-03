@@ -69,7 +69,7 @@ const Home = () => {
             colorScheme="teal"
             align-item="right"
           >
-            Take a Coffe quote!
+            Take a Coffee quote!
           </Button>
         </Box>
         <Cup />
@@ -129,7 +129,7 @@ const Home = () => {
             with a passion for building digital services/stuff she wants. She
             has a knack for all things launching products, from planning and
             designing all the way to solving real-life problems with code. When
-            not online, he loves playing flute, hiking and reading books.
+            not online, she loves playing flute, hiking and reading books.
             Currently, she is working on product called{' '}
             <NextLink href="/works/beinsascores" passHref scroll={false}>
               <Link>Beinsa Scores</Link>
