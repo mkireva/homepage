@@ -23,7 +23,8 @@ import thumbBeinsaNotes from '../public/images/works/beinsanotes.png'
 import Image from 'next/image'
 import Typewriter from './../components/typewriter'
 import { useEffect, useState } from 'react'
-import Animation from '../components/animation'
+import Cup from '../components/cup'
+
 import Quotes from '../components/quotes'
 
 const ProfileImage = chakra(Image, {
@@ -71,7 +72,7 @@ const Home = () => {
             Take a Coffe quote!
           </Button>
         </Box>
-        <Animation> </Animation>
+        <Cup />
 
         <Box
           mt={-20}

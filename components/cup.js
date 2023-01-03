@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from './animation.module.css'
+import styles from './cup.module.css'
 
-const animation = () => {
+const Cup = () => {
   return (
     <div className={styles.container}>
       <div className={styles.plate}></div>
@@ -36,5 +36,4 @@ const animation = () => {
     </div>
   )
 }
-
-export default animation
+export default Cup
