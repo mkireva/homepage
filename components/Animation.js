@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Animation.module.css'
+import styles from './animation.module.css'
 
 const animation = () => {
   return (
