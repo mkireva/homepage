@@ -23,7 +23,7 @@ import thumbBeinsaNotes from '../public/images/works/beinsanotes.png'
 import Image from 'next/image'
 import Typewriter from './../components/typewriter'
 import { useEffect, useState } from 'react'
-import Cup from '../components/cup'
+// import Cup from '../components/cup'
 
 import Quotes from '../components/quotes'
 
@@ -69,15 +69,14 @@ const Home = () => {
             colorScheme="teal"
             align-item="right"
           >
-            Take a Coffee quote!
+            Take a quote!
           </Button>
         </Box>
-        <Cup />
-
+        {/* <Cup /> */}
         <Box
-          mt={-20}
+          mt={20}
           borderRadius="lg"
-          mb={6}
+          mb={14}
           p={3}
           textAlign="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
