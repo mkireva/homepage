@@ -64,6 +64,7 @@ const Home = () => {
           <Quotes quotes={quotes} />
 
           <Button
+            mt={2}
             onClick={getQuote}
             size="sm"
             colorScheme="teal"
@@ -149,8 +150,8 @@ const Home = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>1983</BioYear>
-            Born in Haskovo, Bulgaria.
+            <BioYear>19XX</BioYear>
+            Born in Bulgaria.
           </BioSection>
           <BioSection>
             <BioYear>2011</BioYear>

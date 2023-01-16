@@ -8,7 +8,7 @@ const quotes = ({ quotes }) => {
     <div>
       <Paragraph>{quotes.text}</Paragraph>
       <Box align="right" my={1} mt={-1}>
-        <Meta>{quotes.author}</Meta>
+        <Meta mt={6}>{quotes.author}</Meta>
       </Box>
     </div>
   )
