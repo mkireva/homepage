@@ -150,10 +150,6 @@ const Home = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>19XX</BioYear>
-            Born in Bulgaria.
-          </BioSection>
-          <BioSection>
             <BioYear>2011</BioYear>
             Completed the Magister Artium in Philosophy, Psychology, German
             philology at the LMU Munich.
