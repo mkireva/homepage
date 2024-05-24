@@ -132,7 +132,7 @@ const Home = () => {
             not online, she loves playing flute, hiking and reading books.
             Currently, she is working on product called{' '}
             <NextLink href="/works/beinsascores" passHref scroll={false}>
-              <Link>Beinsa Scores</Link>
+              <Link> Music Sheets</Link>
             </NextLink>
             .
           </Paragraph>
@@ -179,7 +179,7 @@ const Home = () => {
             <BioYear>2022 to present</BioYear>
             Working on a Score Data Base{' '}
             <NextLink href="/works/beinsascores" passHref scroll={false}>
-              <Link>Beinsa Scores</Link>
+              <Link>Music Sheets</Link>
             </NextLink>
             .
           </BioSection>
@@ -233,10 +233,10 @@ const Home = () => {
           <SimpleGrid columns={[1, 2, 2]} gap={6}>
             <GridItem
               href="https://mkireva.github.io/notes-frontend/score"
-              title="Beinsa Scores"
+              title="Music Sheets"
               thumbnail={thumbBeinsaNotes}
             >
-              Beinsa Scores - A plattform for sharing music scores
+              Music Sheets - A plattform for sharing music scores
             </GridItem>
             <GridItem
               href="https://www.youtube.com/channel/UCy18f1D75EjJlcNmJpgSXgQ/featured"

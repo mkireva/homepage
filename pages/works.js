@@ -15,7 +15,7 @@ const Works = () => (
         <Section>
           <WorkGridItem
             id="beinsascores"
-            title="beinsascores"
+            title="musicsheets"
             thumbnail={thumbBeinsanotes}
           >
             allows to display, play, upload, download, and search for music

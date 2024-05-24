@@ -5,7 +5,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Books = () => (
-  <Layout title="Beinsa Notes">
+  <Layout title="Music Sheets">
     <Container>
       <Title>Books witch inspired me</Title>
       <P>The following books and authors was a big inspiration for me.</P>

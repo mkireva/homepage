@@ -5,10 +5,10 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Beinsa Scores">
+  <Layout title="Music Sheets">
     <Container>
       <Title>
-        Beinsa Scores <Badge>2022-</Badge>
+        Music Sheets <Badge>2022-</Badge>
       </Title>
       <P>
         A SaaS Application for displaying, playing, uploading, downloading music
