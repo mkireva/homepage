@@ -22,35 +22,35 @@ import thumbYouTube from '../public/images/links/youtube.jpg'
 import thumbBeinsaNotes from '../public/images/works/beinsanotes.png'
 import Image from 'next/image'
 import Typewriter from './../components/typewriter'
-import { useEffect, useState } from 'react'
+// import { useEffect, useState } from 'react'
 // import Cup from '../components/cup'
 
-import Quotes from '../components/quotes'
+// import Quotes from '../components/quotes'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
 
 const Home = () => {
-  const [quotes, setQuotes] = useState('')
+  // const [quotes, setQuotes] = useState('')
 
-  const getQuote = () => {
-    fetch('https://type.fit/api/quotes')
-      .then(res => res.json())
-      .then(data => {
-        let randomNum = Math.floor(Math.random() * data.length)
-        setQuotes(data[randomNum])
-      })
-  }
+  // const getQuote = () => {
+  //   fetch('https://type.fit/api/quotes')
+  //     .then(res => res.json())
+  //     .then(data => {
+  //       let randomNum = Math.floor(Math.random() * data.length)
+  //       setQuotes(data[randomNum])
+  //     })
+  // }
 
-  useEffect(() => {
-    getQuote()
-  }, [])
+  // useEffect(() => {
+  //   getQuote()
+  // }, [])
 
   return (
     <Layout>
       <Container>
-        <Box
+        {/* <Box
           borderRadius="lg"
           mt={10}
           pl={10}
@@ -72,7 +72,7 @@ const Home = () => {
           >
             Take a quote!
           </Button>
-        </Box>
+        </Box> */}
         {/* <Cup /> */}
         <Box
           mt={20}
